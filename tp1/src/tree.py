@@ -16,16 +16,19 @@ class Operator_Type:
 
 class Node(object):
 
-    def __init__(self):
-        pass
+    def __init__(self, first_node):
+        self.children = first_node
 
     def evaluation(self):
         pass
 
+    def __str__(self):
+        return str(self.children)
+
 class Operator(Node):
 
     def __init__(self, operator, node_left=None, node_right=None):
-        super().__init__()
+        super().__init__(None)
         if type(node_left) is Constant and type(node_right ) is Constant:
             print('Sum two constants')
         self.node_left = node_left
@@ -52,7 +55,7 @@ class Operator(Node):
 class Variable(Node):
 
     def __init__(self, index=1, node_value=None):
-        super().__init__()
+        super().__init__(None)
         self.index = index
 
     def evaluation(self, values):
@@ -65,7 +68,7 @@ class Variable(Node):
 class Constant(Node):
 
     def __init__(self, value):
-        super().__init__()
+        super().__init__(None)
         self.value = float(value)
 
     def evaluation(self, values):
@@ -79,7 +82,7 @@ class Constant(Node):
 class Function(Node):
 
     def __init__(self, node=None):
-        super().__init__()
+        super().__init__(None)
         self.children = node
 
     def evaluation(self, values):
@@ -113,7 +116,11 @@ class Log(Function):
         super().__init__(children_node)
 
     def evaluation(self, values):
-        return math.log(self.children.evaluation(values))
+        value = self.children.evaluation(values)
+        if value > 0.0:
+            return math.log(self.children.evaluation(values))
+        else:
+            return 0.0
 
     def __str__(self):
         return 'ln(' + str(self.children) + ')'
@@ -131,8 +138,6 @@ class Exp(Function):
 
 """------------------------------------------------"""
 """Generate tree"""
-
-
 
 def generate_tree(size_vars, min_depth=1, max_depth=2, depth=0):
     if depth == max_depth:

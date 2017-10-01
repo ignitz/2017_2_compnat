@@ -1,5 +1,3 @@
-
-
 # Colorir letras. Testado apenas no Linux.
 CYAN = '\033[95m'
 BLUE = '\033[94m'
@@ -50,3 +48,4 @@ def print_error(msg, end=None):
 		print(FAIL + str(msg) + ENDC)
 	else:
 		print(FAIL + str(msg) + ENDC, end=end)
+
