@@ -3,30 +3,6 @@ import sys
 import operator
 from itertools import groupby
 
-# define default const
-
-TAMANHO_INDIVIDUO = 7
-
-TAMANHO_POPULACAO = 50
-# TAMANHO_POPULACAO = 100
-# TAMANHO_POPULACAO = 500
-
-PROB_CROSSOVER = 0.9
-PROB_MUTATION = 0.05
-
-# PROB_CROSSOVER = 0.6
-# PROB_MUTATION = 0.3
-
-TAMANHO_TORNEIO = 5
-# TAMANHO_TORNEIO = 5
-
-# TAMANHO_TORNEIO = 3
-# TAMANHO_TORNEIO = 7
-
-TAMANHO_ELITISMO = 2
-
-MAX_GEN = 50
-
 def get_values_csv(file_name):
     values_list = []
     y_list = []
@@ -51,12 +27,12 @@ def get_values_csv(file_name):
 
     return values_list, y_list, dimensions
 
-def tournament(population, tour_size=TAMANHO_TORNEIO):
+def tournament(population, tour_size):
     chooses_index=[]
 
     i = 0
     while i < tour_size:
-        random_index = randint(0, TAMANHO_POPULACAO-1)
+        random_index = randint(0, len(population)-1)
         if random_index not in chooses_index:
             chooses_index.append(random_index)
             i += 1
@@ -70,33 +46,37 @@ def tournament(population, tour_size=TAMANHO_TORNEIO):
     # gets the best
     return chooses_ind[0]
 
-if __name__ == '__main__':
+def main(train_file, test_file, output_file_name, MAX_GEN=15, TAMANHO_POPULACAO = 50, PROB_CROSSOVER = 0.9, PROB_MUTATION = 0.05, TAMANHO_TORNEIO = 2, TAMANHO_ELITISMO = 2):
 
-    # DESCRIPTION = 'TP1 - Genetic Programming - Yuri Niitsuma<ignitzhjfk@gmail.com>'
-    #
-    # parser = argparse.ArgumentParser(description=DESCRIPTION)
-    #
-    # parser.add_argument('csv_file', type=str, nargs='2',
-    #                     help='CSV files for train and test')
-    #
-    # parser.add_argument('--sum', dest='accumulate', action='store_const',
-    #                     const=sum, default=max,
-    #                     help='sum the integers (default: find the max)')
-    #
-    # args = parser.parse_args()
-    # print (args.accumulate(args.csv_files))
+    MAX_GEN = int(MAX_GEN)
+    TAMANHO_POPULACAO = int(TAMANHO_POPULACAO)
+    TAMANHO_TORNEIO = int(TAMANHO_TORNEIO)
+    TAMANHO_ELITISMO = int(TAMANHO_ELITISMO)
+    PROB_CROSSOVER = float(PROB_CROSSOVER)
+    PROB_MUTATION = float(PROB_MUTATION)
 
-    params = sys.argv[1:]
+    output = open(output_file_name, 'w', encoding="utf-8")
+    if not output:
+        print_error('error on opening file ' + str(output_file_name))
+        sys.exit(1)
 
-    if len(params) <= 1:
-        print('TP1 - Genetic Programming - Yuri Niitsuma<ignitzhjfk@gmail.com>')
-        print('\tUsage: python3 gp.py train_data test_data')
-
-    # TODO: insert params values
     # get train files
-    train_x, train_y, train_dim = get_values_csv(params[0])
+    train_x, train_y, train_dim = get_values_csv(train_file)
     # get_test_files
-    test_x, test_y, test_dim = get_values_csv(params[1])
+    test_x, test_y, test_dim = get_values_csv(test_file)
+
+    # write params:
+    temp = str(output_file_name) + '\n' + str(train_file) + '\t' + str(test_file) + '\n\n'
+
+    output.write(temp)
+
+    output.write('Params:\n')
+    output.write('MAX_GEN = ' + str(MAX_GEN) + \
+            '\nTAMANHO_POPULACAO = ' + str(TAMANHO_POPULACAO) + \
+            '\nPROB_CROSSOVER = ' + str(PROB_CROSSOVER) + \
+            '\nPROB_MUTATION = ' + str(PROB_MUTATION) + \
+            '\nTAMANHO_TORNEIO = ' + str(TAMANHO_TORNEIO) + \
+            '\nTAMANHO_ELITISMO = ' + str(TAMANHO_ELITISMO) + '\n\n')
 
     if test_dim != train_dim:
         print_error('Train and test files have diff dimensions')
@@ -116,7 +96,7 @@ if __name__ == '__main__':
 
     population.sort(key=operator.attrgetter('fitness'))
 
-    for count_gen in range(MAX_GEN):
+    for count_gen in range(1, MAX_GEN+1):
         new_population = list()
         waiting_room = list()
 
@@ -139,7 +119,7 @@ if __name__ == '__main__':
         # Mutação
         while len(new_population) < TAMANHO_POPULACAO:
             # ind = waiting_room.pop(randint(0, len(waiting_room)-1))
-            ind = tournament(waiting_room)
+            ind = tournament(waiting_room, TAMANHO_TORNEIO)
             ind.do_mutation(PROB_MUTATION)
             new_population.append(copy.deepcopy(ind))
 
@@ -155,22 +135,61 @@ if __name__ == '__main__':
         for ind in population:
             valores.append(ind.fitness)
 
-        print_purple('Geração ' + str(count_gen))
-        print_purple('Melhor Indivíduo: ' + str(population[0].fitness) + '\t' + str(population[0]))
-        print_purple('Pior Indivíduo: ' + str(population[-1].fitness) + '\t' + str(population[-1]))
-        print_purple('Média de erro: ' + str(media(valores)))
+        temp = '\nGeração ' + str(count_gen) + '\n'
+        temp += 'Melhor Indivíduo: ' + str(population[0].fitness) + '\t' + str(population[0]) + '\n'
+        temp += 'Pior Indivíduo: ' + str(population[-1].fitness) + '\t' + str(population[-1]) + '\n'
+        temp += 'Média de erro: ' + str(media(valores)) + '\n'
+        print_purple(temp)
+        output.write(temp)
 
+    # for ind in population:
+    #     print(ind)
+
+    temp = '\n-----------------------------------------\nGeração final: \n'
+    temp += 'Melhor Indivíduo (Train): \t' + str(population[0].fitness) + '\n\t' + str(population[0]) + '\n'
+    temp += 'Pior Indivíduo (Train): \t' + str(population[-1].fitness) + '\n\t' + str(population[-1]) + '\n'
+    print_blue(temp)
+    output.write(temp)
+
+    output.write('\n-----------------------------------------\nIndivíduos:\n')
+    values = []
     for ind in population:
-        print(ind)
-
-    print_bold(population[0])
-    print_bold(population[0].fitness)
-    print_bold(population[-1])
-    print_bold(population[-1].fitness)
+        values.append(ind.set_fitness(test_x, test_y))
+        output.write('******\n\t' + str(ind) + '\n\t' + str(ind.fitness) + '\n')
 
     # Check if test is OK
-    print_error(population[0].set_fitness(test_x, test_y))
+    temp = '\n-----------------------------------------\nTest:\n'
+    temp += '5 melhores indivíduos:\n'
+    for i in range(5):
+        temp += str(population[i]) + '\n\t' + str(population[i].fitness) + '\n'
 
+    temp += 'Media: \t' + str(media(valores)) + '\n'
+    temp += 'Desvio padrão: \t' + str(desvio_padrao(valores)) + '\n'
+
+    print_green(temp)
+    output.write(temp)
+
+    print_error('Quantidade de indivíduos repetidos!')
+    output.write('\n Quantidade de indivíduos repetidos!\n')
     for x in [len(list(group)) for key, group in groupby(valores)]:
         if x > 1:
-            print_error(str(x) + ' indivíduos repetidos!')
+            print_error(str(x), end="\t")
+            output.write(str(x) + '\t')
+    print()
+    output.write('\n')
+
+    output.close()
+
+if __name__ == '__main__':
+
+    params = sys.argv[1:]
+
+    if len(params) <= 2:
+        print('TP1 - Genetic Programming - Yuri Niitsuma<ignitzhjfk@gmail.com>')
+        description = '\tUsage: python3 gp.py train_data test_data output_data'
+        description += ' [max_generations] [size_population] [p(crossover)] [p(mutation)]'
+        description += ' [size_tournament] [size_elitims]'
+        print(description)
+        sys.exit(1)
+
+    main(*params)
