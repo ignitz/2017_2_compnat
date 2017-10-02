@@ -1,12 +1,11 @@
 from random import random, randint, uniform
-
 from tree import *
-
 import copy
+import math
 
 class Individual:
 
-    def __init__(self, size_vars, min_depth=1, max_depth=3):
+    def __init__(self, size_vars, min_depth=1, max_depth=2):
         self.size_vars = size_vars
         self.fitness = None
         self.tree = Node(generate_tree(size_vars, min_depth, max_depth))
@@ -20,8 +19,10 @@ class Individual:
 
         for x, y in zip(x_values, fx_values):
             result = self.tree.evaluation(x)
-            abs_error += abs(result - y)
+            abs_error += (1.0/len(x) * result - y) * (1.0/len(x) * result - y)
+            # abs_error += abs(result - y)
 
+        abs_error = math.sqrt(abs_error)
         self.fitness = abs_error
         return abs_error
 
@@ -48,7 +49,7 @@ class Individual:
 
     def do_mutation(self, mut_prob):
         if random() < mut_prob:
-            depth = randint(1, self.max_depth)
+            depth = randint(1, self.max_depth-1)
             node_to_mutate, parent, left_or_right = self._walk_subtree(self.tree.children, self.tree, depth, 1)
 
             what_type = randint(1, 3)
@@ -75,9 +76,9 @@ class Individual:
             aux_1 = copy.deepcopy(self)
             aux_2 = copy.deepcopy(other)
 
-            depth = randint(1, aux_1.max_depth)
+            depth = randint(1, aux_1.max_depth-1)
             node_a, parent_a, left_or_right_a = aux_1._walk_subtree(aux_1.tree.children, aux_1.tree, depth, 1)
-            depth = randint(1, aux_2.max_depth)
+            depth = randint(1, aux_2.max_depth-1)
             node_other, parent_other, left_or_right_other = aux_2._walk_subtree(aux_2.tree.children, aux_2.tree, depth, 1)
 
             if type(parent_a) is Node:
@@ -106,42 +107,3 @@ class Individual:
 
     def __str__(self):
         return str(self.tree)
-
-def test_mutation():
-    ind = Individual(1)
-    print(ind)
-
-    x_values = [[0.0], [0.5], [1.0]]
-    fx_values = [0.0, -0.6931471805599, 0.0]
-
-    ind.do_mutation(1.0)
-    print(ind)
-
-def test_crossover():
-    while True:
-        ind1 = Individual(1)
-        ind2 = Individual(1)
-        print_bold(ind1)
-        print_error(ind2)
-
-        children1, children2 = ind1.do_crossover(ind2, 1.0)
-
-        print_green(children1)
-        print_purple(children2)
-        print("-------------------------------------------------")
-
-
-if __name__ == '__main__':
-    # while True:
-    #     ind = Individual(1)
-    #     print(ind)
-    #
-    #     x_values = [[0.0], [0.5], [1.0]]
-    #     fx_values = [0.0, -0.6931471805599, 0.0]
-    #
-    #     ind.set_fitness(x_values, fx_values)
-    #
-    #     print(ind.fitness)
-
-    test_mutation()
-    test_crossover()

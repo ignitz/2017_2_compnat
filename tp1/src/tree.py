@@ -19,8 +19,8 @@ class Node(object):
     def __init__(self, first_node):
         self.children = first_node
 
-    def evaluation(self):
-        pass
+    def evaluation(self, values):
+        return self.children.evaluation(values)
 
     def __str__(self):
         return str(self.children)
@@ -131,7 +131,13 @@ class Exp(Function):
         super().__init__(children_node)
 
     def evaluation(self, values):
-        return math.exp(self.children.evaluation(values))
+        try:
+            return math.exp(self.children.evaluation(values))
+        except OverflowError:
+            return 0.0
+        except:
+            raise
+
 
     def __str__(self):
         return 'exp(' + str(self.children) + ')'
@@ -198,28 +204,4 @@ def generate_tree(size_vars, min_depth=1, max_depth=2, depth=0):
             else:
                 raise Error('Unknow operator inserted')
 
-
-if __name__ == '__main__':
-    a_tree = generate_tree(10, 1, 5)
-
-    print(a_tree)
-    # node_left = Constant(0.5)
-    # node_right = Constant(0.5)
-    # values = [5.0]
-    # node = Operator(Operator_Type.ADD, node_left, node_right)
-    # print(node.evaluation(values))
-    #
-    # print(Exp(node))
-    # print(Exp(node).evaluation(values))
-    #
-    # values = [1.0, 2.0, 3.0]
-    # node = Operator(Operator_Type.ADD, Variable(1), Operator(Operator_Type.ADD, Variable(2), Variable(3)))
-    # print(node)
-    #
-    # print(node.evaluation(values))
-    #
-    # values = [math.pi]
-    #
-    # node = Cos(Variable(1))
-    # print(node.evaluation(values))
 

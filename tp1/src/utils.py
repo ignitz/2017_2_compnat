@@ -1,3 +1,5 @@
+import math
+
 # Colorir letras. Testado apenas no Linux.
 CYAN = '\033[95m'
 BLUE = '\033[94m'
@@ -48,4 +50,24 @@ def print_error(msg, end=None):
 		print(FAIL + str(msg) + ENDC)
 	else:
 		print(FAIL + str(msg) + ENDC, end=end)
+
+
+def media(valores):
+    soma = 0.0
+    for v in valores:
+        soma+=v
+    return soma/len(valores)
+
+def variancia(valores):
+    _media = media(valores)
+    soma = 0.0
+    _variancia = 0.0
+
+    for valor in valores:
+        soma += math.pow((valor - _media), 2)
+    _variancia = soma / float(len(valores))
+    return _variancia
+
+def desvio_padrao(valores):
+    return math.sqrt(variancia(valores))
 
