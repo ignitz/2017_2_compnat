@@ -1,0 +1,1666 @@
+output/house/9.txt
+datasets/house-train.csv	datasets/house-test.csv
+
+Params:
+MAX_GEN = 500
+TAMANHO_POPULACAO = 50
+PROB_CROSSOVER = 0.08
+PROB_MUTATION = 0.22
+TAMANHO_TORNEIO = 5
+TAMANHO_ELITISMO = 2
+
+
+Geração 1
+Melhor Indivíduo: 46152259.40125327	(sin(sin(sin(cos((X7 * X7))))) + (-2.5940478844632753 + X4))
+Pior Indivíduo: 46281250.50360002	(-4.223746125365319 - exp(exp(ln(exp((4.47784769960961 + X3))))))
+Média de erro: 46266564.98102298
+
+Geração 2
+Melhor Indivíduo: 46152240.625356324	X4
+Pior Indivíduo: 46281230.01447176	-4.143396913042433
+Média de erro: 46239036.67408876
+
+Geração 3
+Melhor Indivíduo: 46152240.625356324	X4
+Pior Indivíduo: 46284559.20803991	(-1.0119000884023635 * (1.1494047947513142 * X8))
+Média de erro: 46217056.20688548
+
+Geração 4
+Melhor Indivíduo: 46152240.625356324	X4
+Pior Indivíduo: 46284559.20803991	(-1.0119000884023635 * (1.1494047947513142 * X8))
+Média de erro: 46210586.23065134
+
+Geração 5
+Melhor Indivíduo: 46152240.625356324	X4
+Pior Indivíduo: 46281242.52382215	(-5.874142471172984 + sin((X1 * -0.9027832818905992)))
+Média de erro: 46193391.36207274
+
+Geração 6
+Melhor Indivíduo: 46152240.625356324	X4
+Pior Indivíduo: 46281220.47963201	-2.8468164105762463
+Média de erro: 46206398.345743656
+
+Geração 7
+Melhor Indivíduo: 46152240.625356324	X4
+Pior Indivíduo: 4.828699475512573e+152	exp(((X5 - -2.3680128029877334) / sin((X7 * -2.947574181592411))))
+Média de erro: 9.657398951025147e+150
+
+Geração 8
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281329.04723681	((X1 * -4.755047745142208) + (X5 / -4.942599055502896))
+Média de erro: 46100819.22282022
+
+Geração 9
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 228701320648.1578	((X5 + -3.0439176725427086) + (X4 * X4))
+Média de erro: 9192329904.107319
+
+Geração 10
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281469.83001684	((-4.493547184128609 * X6) - exp(-15.048476507808529))
+Média de erro: 45761341.256275825
+
+Geração 11
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 1.0764904477589607e+144	exp((2.424481471528405 / ln(exp(cos((X7 / X1))))))
+Média de erro: 2.1529808955179213e+142
+
+Geração 12
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46293890.81244643	(ln(ln(ln(4.948450941424927))) - (X7 - X8))
+Média de erro: 44730634.69445345
+
+Geração 13
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281234.35445652	-4.73356299677862
+Média de erro: 43951333.268782064
+
+Geração 14
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46413249.153920546	((-4.098023289288336 - X4) - sin((X1 + 1.891736775890962)))
+Média de erro: 43689172.51576105
+
+Geração 15
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281227.793938264	-3.841441080370612
+Média de erro: 42972217.56020724
+
+Geração 16
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281225.700280674	-3.556738288820498
+Média de erro: 43360202.970813304
+
+Geração 17
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281231.0761969	-4.287773957650635
+Média de erro: 43237338.18728041
+
+Geração 18
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 357102310.1573779	((X3 * X7) / cos((-1.5536996453193064 - X5)))
+Média de erro: 49361808.034732506
+
+Geração 19
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X7 + X8) * sin((X2 * X6))))
+Média de erro: inf
+
+Geração 20
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp((X8 * -3.7455366418530813)) + exp((X7 / 3.2511154967451947)))
+Média de erro: inf
+
+Geração 21
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281216.20101583	-2.2649953401517586
+Média de erro: 43407359.1479096
+
+Geração 22
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281224.82801892	-3.4381251065242924
+Média de erro: 42969263.323709205
+
+Geração 23
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp((sin((4.874025524993792 + X8)) * (-4.654455990193731 + X4)))
+Média de erro: inf
+
+Geração 24
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281205.249596335	-0.7757832380522647
+Média de erro: 43509897.57913644
+
+Geração 25
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281217.53742613	-2.4467250195064505
+Média de erro: 43236543.320780724
+
+Geração 26
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281227.42224879	-3.790897473186079
+Média de erro: 42615348.03006523
+
+Geração 27
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281202.283681974	-0.3724678543174056
+Média de erro: 43331807.68386582
+
+Geração 28
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281232.27657435	-4.451005422999764
+Média de erro: 43329181.847894564
+
+Geração 29
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281222.01976229	-3.0562486595347185
+Média de erro: 43681470.82496627
+
+Geração 30
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281229.01943372	-4.008088187570057
+Média de erro: 43597041.099438466
+
+Geração 31
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281223.023784965	-3.1927791375501737
+Média de erro: 43317689.80113799
+
+Geração 32
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281247.75740776	((-2.1524216039370603 - X2) / cos(cos(cos(exp((X4 / X7))))))
+Média de erro: 43063748.46733234
+
+Geração 33
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp((X7 - 4.0160610575733955)) * -1.0883505976540042)
+Média de erro: inf
+
+Geração 34
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281199.749845825	(sin((-0.00741383377488436 * X2)) * exp(ln(1.5788626786505375)))
+Média de erro: 43331495.99245544
+
+Geração 35
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X2 * X6) + (1.2333875803234147 + X4)))
+Média de erro: inf
+
+Geração 36
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.869172044	-4.939539242681677
+Média de erro: 43420872.759551674
+
+Geração 37
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281261.554874435	-8.432369103048249
+Média de erro: 43062505.053977035
+
+Geração 38
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.33463182	-4.866850631104337
+Média de erro: 43326028.83316414
+
+Geração 39
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 90451322.70970957	((X8 + X5) * (-3.2249995449494415 * X3))
+Média de erro: 44926127.986750714
+
+Geração 40
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46283248.22633886	(sin(ln((X2 / X4))) * (X8 + X6))
+Média de erro: 43947150.39207397
+
+Geração 41
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281225.591298856	-3.541918565084857
+Média de erro: 43599675.84905955
+
+Geração 42
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281208.30446396	-1.1911947689062563
+Média de erro: 42609124.29315457
+
+Geração 43
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 5.8636936164062456e+16	exp(((3.704703667129337 * X1) - exp(-2.778073429107505)))
+Média de erro: 2345477488310505.0
+
+Geração 44
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281214.08020069	-1.9765995588030814
+Média de erro: 43241760.34924614
+
+Geração 45
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 790871853.8320545	((X4 * 4.465230031349455) * (X4 / X8))
+Média de erro: 58488854.49173334
+
+Geração 46
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281203.66245753	-0.5599585724539242
+Média de erro: 43234583.52254046
+
+Geração 47
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp(13.170018243763328) - exp((X3 - 2.4439888753485617)))
+Média de erro: inf
+
+Geração 48
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46894971.901222795	((2.4224638745862395 + X3) + (-4.600172677971784 * X4))
+Média de erro: 43529494.6169792
+
+Geração 49
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 69187895.93255776	(ln(cos(ln(exp(cos((X8 * -2.9200310508480665)))))) * exp(ln((X7 * X7))))
+Média de erro: 43611253.86613174
+
+Geração 50
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.81365577	-4.660023046326077
+Média de erro: 42346182.41062059
+
+Geração 51
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46413216.04874676	((-1.6651801370178863 - X4) + exp(cos(-0.3225575571771402)))
+Média de erro: 43691579.155940264
+
+Geração 52
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281215.164911985	-2.1241023474515064
+Média de erro: 43330965.97804615
+
+Geração 53
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281219.55995039	-2.7217549216506542
+Média de erro: 42795626.71229515
+
+Geração 54
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281223.52178813	-3.260499348335034
+Média de erro: 43686725.968295686
+
+Geração 55
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.14291975	-4.568814060329815
+Média de erro: 43330647.9629366
+
+Geração 56
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281223.941928945	-3.3176315439552417
+Média de erro: 43685421.6364582
+
+Geração 57
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281206.46014437	-0.9403977827791099
+Média de erro: 43241189.783012934
+
+Geração 58
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46413229.39657005	((X5 / 4.17157396749527) - (X4 + 1.7161350354848182))
+Média de erro: 43782986.90919267
+
+Geração 59
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281213.74145194	-1.9305353206500122
+Média de erro: 43420915.83938271
+
+Geração 60
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281203.87942038	-0.5894619315769223
+Média de erro: 43500595.570839666
+
+Geração 61
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281207.75626183	-1.1166483443279707
+Média de erro: 42704952.215196416
+
+Geração 62
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281210.63341551	-1.5078937208148302
+Média de erro: 43328039.95050571
+
+Geração 63
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((-4.855506119436645 + X4) + (0.7692223369934679 / X1)))
+Média de erro: inf
+
+Geração 64
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281206.74259687	-0.9788066413231933
+Média de erro: 43330012.85621166
+
+Geração 65
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281204.17498827	-0.6296542869593775
+Média de erro: 43063001.44071647
+
+Geração 66
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281212.559091195	-1.7697537985957479
+Média de erro: 42794832.39014124
+
+Geração 67
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X8 + X6) - cos(ln((X3 - X5)))))
+Média de erro: inf
+
+Geração 68
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281199.54393655	(cos(exp(3.007130350443348)) / (X6 + X3))
+Média de erro: 42972440.59672835
+
+Geração 69
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281224.33692171	-3.3713440258079794
+Média de erro: 43330080.31840608
+
+Geração 70
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281230.70451029	-4.23723074369261
+Média de erro: 43147645.56483949
+
+Geração 71
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46336862.20027164	(cos((1.2763686442231048 - X4)) + (-3.014706712060148 * X3))
+Média de erro: 43327082.25817302
+
+Geração 72
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 224668102.57831988	(exp(ln((-3.9106473762227423 + X8))) * (X4 + X1))
+Média de erro: 46810243.93676765
+
+Geração 73
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281476.95532114	((-4.471429405631948 - X7) * sin(sin(cos((X3 - 0.25655549547241385)))))
+Média de erro: 43510565.33211992
+
+Geração 74
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.78556344	-4.928169863269064
+Média de erro: 43599909.085511304
+
+Geração 75
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281206.12936354	-0.8954170441502693
+Média de erro: 42883996.74256744
+
+Geração 76
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 5.051740017362792e+40	exp((sin(6.084457846798486) + (X6 * X2)))
+Média de erro: 1.0103480034725584e+39
+
+Geração 77
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281231.46067313	-4.340056352289025
+Média de erro: 43776100.97899764
+
+Geração 78
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281210.26344763	-1.457584182550499
+Média de erro: 43323451.216154546
+
+Geração 79
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46635797.67800331	(0.9936840763127124 * (X4 * -2.653086423735288))
+Média de erro: 43984916.93093605
+
+Geração 80
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281223.42093968	-3.246785609514177
+Média de erro: 43599872.85182848
+
+Geração 81
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.79850027	-4.6579621643951
+Média de erro: 43957054.127059504
+
+Geração 82
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281216.7424627	-2.338623168247591
+Média de erro: 43330544.140257664
+
+Geração 83
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281216.7424627	-2.338623168247591
+Média de erro: 43327567.09548153
+
+Geração 84
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281217.21557877	-2.402959123791736
+Média de erro: 43019296.70373202
+
+Geração 85
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281229.504140064	-4.074000397383651
+Média de erro: 42705829.49847719
+
+Geração 86
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp((X4 - -4.167090333781886)) - 4.704390045614797)
+Média de erro: inf
+
+Geração 87
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46366108.71883695	(sin((X2 * -0.35893646775274135)) * (X4 - X3))
+Média de erro: 43063061.71982017
+
+Geração 88
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46317472.91527477	((X4 / -3.6092466027386827) + sin(exp((X2 * X3))))
+Média de erro: 43059923.181213886
+
+Geração 89
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281236.653646275	(ln((X3 - -0.42030052332010115)) * ln(sin(cos(sin(exp(ln(exp(cos(-1.1969003923014876)))))))))
+Média de erro: 42974316.48527787
+
+Geração 90
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281217.15301403	-2.3944513590571037
+Média de erro: 42705885.303786546
+
+Geração 91
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281205.00492279	ln((exp(-0.7425116883090643) / ln(exp(cos(ln(ln(ln(sin(0.6913432367755118)))))))))
+Média de erro: 42706254.18832776
+
+Geração 92
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281230.79499892	-4.249535680598726
+Média de erro: 43063295.485188454
+
+Geração 93
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.92813988	-4.947557889444678
+Média de erro: 43147905.73088233
+
+Geração 94
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46283084.42830326	((X8 / 0.44339647538818916) * sin(ln(sin(sin(cos(exp(-130.15007463704373)))))))
+Média de erro: 43600067.6520063
+
+Geração 95
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281231.1592843	-4.299072463741042
+Média de erro: 43867742.28515935
+
+Geração 96
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.17712798	-4.573465809952321
+Média de erro: 43420867.41885725
+
+Geração 97
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281213.7382338	-1.9300976966259977
+Média de erro: 42705885.26539022
+
+Geração 98
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.70747453	-4.9175510522907135
+Média de erro: 43418044.49944477
+
+Geração 99
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp((X8 + 4.463152968964657)) / (X2 * X5))
+Média de erro: inf
+
+Geração 100
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.82030022	-4.660926585937574
+Média de erro: 43063379.13876322
+
+Geração 101
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281245.73189649	ln(exp(((-3.2679175539986915 / X3) + -6.279111832012387)))
+Média de erro: 43776158.2395898
+
+Geração 102
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46291075.377744496	((X1 * X8) * (-3.418514358196804 / X1))
+Média de erro: 43689497.84277603
+
+Geração 103
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.48695037	-4.61559653199474
+Média de erro: 43946793.786298744
+
+Geração 104
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281212.56287553	-1.7702683977339726
+Média de erro: 43234072.28715904
+
+Geração 105
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281215.733713865	-2.2014499664061837
+Média de erro: 43865699.748206794
+
+Geração 106
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281216.64901937	-2.325916412090522
+Média de erro: 43324018.3132424
+
+Geração 107
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281203.02092453	ln(cos(exp(exp(exp(ln((cos((X1 / -0.9231142835057673)) * (3.9814307991438724 - X3))))))))
+Média de erro: 42965325.64945484
+
+Geração 108
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281220.15209507	-2.8022768125802777
+Média de erro: 43062075.20310889
+
+Geração 109
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281260.523243584	((3.465394674539807 - X4) / (-2.2431593775381975 + X7))
+Média de erro: 43147901.84262027
+
+Geração 110
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281204.01950782	-0.6085115199984559
+Média de erro: 43147961.182170995
+
+Geração 111
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281240.48667183	(sin(exp(ln((4.660370044865408 * X4)))) - 5.570675822409902)
+Média de erro: 43955998.22684021
+
+Geração 112
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.300397895	-4.862195361926825
+Média de erro: 44045074.525379464
+
+Geração 113
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281217.55961021	((-2.312803552281304 / X2) * 2.1789266225059714)
+Média de erro: 43239538.21102421
+
+Geração 114
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281234.957730375	-4.815598254463281
+Média de erro: 43683268.23880142
+
+Geração 115
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281230.98427736	-4.275274411423391
+Média de erro: 43510449.093943216
+
+Geração 116
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281222.06101242	-3.061857996700703
+Média de erro: 42438017.52554273
+
+Geração 117
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281216.55091311	-2.3125755966157735
+Média de erro: 42527504.79910863
+
+Geração 118
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp((-3.006650926981038 + X8)) * 0.8319994390661254)
+Média de erro: inf
+
+Geração 119
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281213.31991674	-1.8732134877929507
+Média de erro: 43057537.2661265
+
+Geração 120
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281209.28380936	-1.3243695782343345
+Média de erro: 43509368.02062561
+
+Geração 121
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(ln(exp((-2.713878208454524 + X7))) * exp((X7 + -1.7588410825707426)))
+Média de erro: inf
+
+Geração 122
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281229.84635379	-4.120535639502796
+Média de erro: 43507012.1494154
+
+Geração 123
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281227.614703044	-3.817068059679649
+Média de erro: 44132623.69158272
+
+Geração 124
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.416902766	-4.606071212404057
+Média de erro: 42974008.42689184
+
+Geração 125
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281262.0486862	-8.499519319473722
+Média de erro: 42348760.95226605
+
+Geração 126
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46290545.39653461	((X2 - X3) * (1.1999434143021883 / X2))
+Média de erro: 43332191.69441474
+
+Geração 127
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46284104.22137514	(sin(sin(exp((X5 + X8)))) - (X8 + X2))
+Média de erro: 42698632.53574085
+
+Geração 128
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281362.346458696	(16.049339392657497 / cos((4.593248284164073 / X2)))
+Média de erro: 42795631.36532037
+
+Geração 129
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281222.01907007	-3.056154541409173
+Média de erro: 42706255.28791359
+
+Geração 130
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281228.66851199	((X2 / X5) - (X5 + 1.2717552424792968))
+Média de erro: 43150428.2985422
+
+Geração 131
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281229.70775039	-4.101687859278142
+Média de erro: 43418296.24968788
+
+Geração 132
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281228.77108962	-3.9743175032956577
+Média de erro: 43062157.62190769
+
+Geração 133
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281234.28861473	-4.7246096132280115
+Média de erro: 43242495.1668128
+
+Geração 134
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46394753.58923498	((X3 - X4) - sin(sin(exp(cos(exp(ln((X6 - 0.7109807532570986))))))))
+Média de erro: 43338680.97071156
+
+Geração 135
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281227.849595025	-3.8490094920575633
+Média de erro: 43063693.579358414
+
+Geração 136
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281213.56940842	-1.9071402338640056
+Média de erro: 43150115.53779105
+
+Geração 137
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.4896622	-4.887932185985095
+Média de erro: 43063635.66173216
+
+Geração 138
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46770121.57030873	(-0.9454668995329297 - (X4 * X1))
+Média de erro: 43159570.735022604
+
+Geração 139
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281206.94204023	-1.0059276623540692
+Média de erro: 43778619.032752536
+
+Geração 140
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281223.536978535	-3.262564968905912
+Média de erro: 43234078.047642685
+
+Geração 141
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281559.325920306	(sin(ln(sin((X2 * X8)))) * (X7 / X5))
+Média de erro: 43686790.200021155
+
+Geração 142
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46299687.99096654	(ln(cos(-2.0468595189721452)) - (X1 + X3))
+Média de erro: 43867309.79279161
+
+Geração 143
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281221.20473904	-2.945418976685942
+Média de erro: 43323699.690131724
+
+Geração 144
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281199.544615194	exp((exp(6.176561090546799) * cos(exp(4.200660698645028))))
+Média de erro: 42974057.58111534
+
+Geração 145
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281229.87846952	-4.124902856783004
+Média de erro: 43331269.03809949
+
+Geração 146
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281232.244575545	-4.446654107512295
+Média de erro: 42795630.32001492
+
+Geração 147
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281234.431135826	-4.7439901192834455
+Média de erro: 43866543.74864503
+
+Geração 148
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46283631.31802487	((X5 * X8) / -4.2323631052798)
+Média de erro: 43241855.000903636
+
+Geração 149
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46284029.058041014	((2.3022418807758127 * X5) - (X8 - 0.16629968847827215))
+Média de erro: 43509564.11101972
+
+Geração 150
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281231.05220334	-4.2845112305972215
+Média de erro: 43950596.014830954
+
+Geração 151
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281210.68873165	-1.5154157774327826
+Média de erro: 43408084.88518688
+
+Geração 152
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281220.68501842	-2.874745564930131
+Média de erro: 43239704.70432677
+
+Geração 153
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281225.25238381	-3.4958317294456
+Média de erro: 43689230.21528104
+
+Geração 154
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 186356649.34830582	((3.907129725994178 * X8) / (4.720211499837049 / X4))
+Média de erro: 48934888.59326846
+
+Geração 155
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.66000124	-4.911095470782402
+Média de erro: 43063749.13689005
+
+Geração 156
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281223.51044299	-3.2589565804391176
+Média de erro: 43237221.40694768
+
+Geração 157
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281199.54542226	(sin((X2 / 1.077870841121305)) / (X1 - X4))
+Média de erro: 43331238.345247336
+
+Geração 158
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281231.582267314	-4.3565911514423625
+Média de erro: 43062387.15446677
+
+Geração 159
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281226.7637714	-3.701355441334387
+Média de erro: 43418216.82864659
+
+Geração 160
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.2938738	-4.861308191218406
+Média de erro: 43330337.202333234
+
+Geração 161
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.2938738	-4.861308191218406
+Média de erro: 43418413.7035831
+
+Geração 162
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp((3.0489671166133565 * X2)) - exp((X8 - X5)))
+Média de erro: inf
+
+Geração 163
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281229.35097825	-4.053172751070873
+Média de erro: 43684936.58265828
+
+Geração 164
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281210.920267224	-1.5469008067623982
+Média de erro: 43240707.23191612
+
+Geração 165
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 74614515.87031381	(exp((X1 + X6)) + (X2 - 1.2133946829774347))
+Média de erro: 43895956.96076843
+
+Geração 166
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 1.1200195785649741e+50	exp((-0.02058814001776549 * (-0.42086599492849963 * X3)))
+Média de erro: 2.2400391571299482e+48
+
+Geração 167
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X3 + 0.5277987788052325) + (-2.194550413403565 - X6)))
+Média de erro: inf
+
+Geração 168
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X3 + 0.5277987788052325) + (-2.194550413403565 - X6)))
+Média de erro: inf
+
+Geração 169
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281215.55853098	-2.177628028309202
+Média de erro: 44314976.40654655
+
+Geração 170
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281193.00881163	cos(sin((-0.12815658388684292 - (X1 * X8))))
+Média de erro: 42527134.46567993
+
+Geração 171
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281201.47314483	ln(cos(((4.388349818273685 / X7) + sin((X6 + -0.5960390879063668)))))
+Média de erro: 43147027.38533217
+
+Geração 172
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281228.4208977	-3.9266972035068823
+Média de erro: 42969217.12248025
+
+Geração 173
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281218.53770497	-2.5827464393693678
+Média de erro: 42795568.62317999
+
+Geração 174
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281232.024942026	-4.4167875874297655
+Média de erro: 43778424.16589884
+
+Geração 175
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281226.98768698	-3.7318042496317294
+Média de erro: 43408405.196814604
+
+Geração 176
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281222.74827223	-3.155313967298431
+Média de erro: 43498450.08082113
+
+Geração 177
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46307566.40070843	((-0.3543719450297198 - X3) / cos((X1 / X8)))
+Média de erro: 43242849.19654428
+
+Geração 178
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281241.01580504	(2.6099469196446208 + (X5 * -2.415351434786089))
+Média de erro: 43143713.327649504
+
+Geração 179
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281221.780013084	-3.0236467367072475
+Média de erro: 42702995.53080986
+
+Geração 180
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281207.41615617	-1.0703995128216937
+Média de erro: 42706253.36242083
+
+Geração 181
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281236.27581003	-4.994835287117897
+Média de erro: 42705522.78435623
+
+Geração 182
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46286094.23287992	((-1.4878181717764862 * X8) / cos(cos(1.0483375328853342)))
+Média de erro: 42974513.29030224
+
+Geração 183
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46286094.23287992	((-1.4878181717764862 * X8) / cos(cos(1.0483375328853342)))
+Média de erro: 42885198.586795725
+
+Geração 184
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281208.80387126	ln((0.6259159447343767 * exp(sin(cos(exp(cos(ln(ln(cos((X3 * X4)))))))))))
+Média de erro: 42971617.86675688
+
+Geração 185
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281234.94229395	-4.813499167625327
+Média de erro: 43598123.93549576
+
+Geração 186
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281217.508192725	-2.442749771409237
+Média de erro: 43599620.095524
+
+Geração 187
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(exp((sin(cos((X8 - X1))) * (X6 - -2.1040672433173215))))
+Média de erro: inf
+
+Geração 188
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.61740802	-4.905303501563552
+Média de erro: 43063438.60134813
+
+Geração 189
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281216.52068539	-2.3084651294867986
+Média de erro: 43099760.41357528
+
+Geração 190
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46296501.58614938	((X3 * 0.9619421477033816) / (X2 - 3.8573538499013225))
+Média de erro: 43685644.01477677
+
+Geração 191
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46299578.88123809	((X6 - X3) + 3.098476674766636)
+Média de erro: 43863003.4537677
+
+Geração 192
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281232.28078653	-4.451578209983486
+Média de erro: 43507805.07558597
+
+Geração 193
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X8 - 1.4848505016389968) - 0.8783718459598813))
+Média de erro: inf
+
+Geração 194
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.08165649	-4.560483266916691
+Média de erro: 43593202.55922688
+
+Geração 195
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 951425635.0487578	((X4 * X7) * cos((X6 - -4.116515681166362)))
+Média de erro: 98260990.5628799
+
+Geração 196
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281232.49855616	-4.4811912783661425
+Média de erro: 43689054.23678214
+
+Geração 197
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281202.94438043	sin(sin(sin((ln(cos(cos(sin((X5 + -4.676338777480455))))) * ln(exp(7.899647067216838))))))
+Média de erro: 42946290.80838976
+
+Geração 198
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.968003064	-4.952978623934157
+Média de erro: 42974005.499865085
+
+Geração 199
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281215.28652233	-2.14063933622295
+Média de erro: 42974201.36098729
+
+Geração 200
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281233.86077486	-4.666430459211435
+Média de erro: 43331686.82317207
+
+Geração 201
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.959661655	-4.95184433098418
+Média de erro: 43497413.429026365
+
+Geração 202
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46922652.48513045	((-3.6636263981754436 * X4) - (X4 + -1.1923481636136177))
+Média de erro: 43647988.37590716
+
+Geração 203
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281226.686396465	-3.69083372795635
+Média de erro: 43867447.31304956
+
+Geração 204
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281225.95041662	-3.590752650914225
+Média de erro: 43149491.304502875
+
+Geração 205
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281226.024083115	-3.600770072761673
+Média de erro: 43331187.41862853
+
+Geração 206
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281215.93459853	-2.228766997025875
+Média de erro: 42974259.44881399
+
+Geração 207
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	((X7 / X7) - exp((X7 + X1)))
+Média de erro: inf
+
+Geração 208
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281221.48045752	-2.982912136141773
+Média de erro: 43241756.970625445
+
+Geração 209
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46285126.9518057	(cos(ln((X6 - -2.8167935284675503))) - exp(6.279134861859587))
+Média de erro: 42884964.65343309
+
+Geração 210
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281219.30996681	-2.6877612863640685
+Média de erro: 43420925.95529111
+
+Geração 211
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46346588.903852515	((1.653909299409861 / X1) * (X1 - X4))
+Média de erro: 43684405.5369833
+
+Geração 212
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281198.61675666	(sin(exp(cos(exp(ln(exp(sin(-3.753368427638377))))))) / (X8 + X1))
+Média de erro: 42970376.22732919
+
+Geração 213
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281193.75134495	cos((ln(1.9417409737768843) - (X4 - X4)))
+Média de erro: 42884260.91303867
+
+Geração 214
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281224.396535926	-3.3794505687062717
+Média de erro: 42790160.83136887
+
+Geração 215
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281362.45106601	(3.8562647860448167 / sin((X5 + X8)))
+Média de erro: 42795632.138756864
+
+Geração 216
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	(exp((0.13281225601528757 + X8)) + ln((X2 - X5)))
+Média de erro: inf
+
+Geração 217
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 47450138.598982275	((X6 * X3) * (X1 / -0.5327709794606852))
+Média de erro: 44784796.43225227
+
+Geração 218
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46296748.48900643	((X5 - X7) - sin(cos((X4 * 3.1626702033693554))))
+Média de erro: 44851667.01907294
+
+Geração 219
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281232.70720151	-4.50956358333155
+Média de erro: 43866433.90508378
+
+Geração 220
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281215.03633012	-2.1066173426572443
+Média de erro: 43685188.704949826
+
+Geração 221
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46296765.461575486	(cos(0.46834118033540145) + (0.18515091384666604 - X7))
+Média de erro: 43868412.76846207
+
+Geração 222
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281199.54819773	((X7 / X3) / (-2.348882839184961 - X7))
+Média de erro: 43510183.3675288
+
+Geração 223
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 2.4817006219551266e+22	exp((0.7332894692300953 / sin(cos((X7 - 2.9113038156596085)))))
+Média de erro: 4.963401243910684e+20
+
+Geração 224
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281204.75014131	sin((cos((X3 / X3)) * exp(exp(sin((X3 / X3))))))
+Média de erro: 42968281.75453476
+
+Geração 225
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281215.74768216	-2.2033494622018845
+Média de erro: 42705144.674725525
+
+Geração 226
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46513721.51702066	(-4.66130085050687 / sin(ln(cos(sin((X3 * X8))))))
+Média de erro: 42983677.586431526
+
+Geração 227
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 8.525011854905091e+52	(ln((X2 * -1.2493882003776067)) - exp(exp((4.814326154477312 - X2))))
+Média de erro: 1.7050023709810182e+51
+
+Geração 228
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46333071.43374941	((X7 / -3.2361061899423706) - (X8 / 0.061429189703014586))
+Média de erro: 43413858.64916198
+
+Geração 229
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281235.61937709	-4.905571268106379
+Média de erro: 43063010.55732212
+
+Geração 230
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281236.04898069	-4.963990255048655
+Média de erro: 43063268.16867412
+
+Geração 231
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46373169.50232405	((X3 * -4.98123620758432) - -1.1659767969662402)
+Média de erro: 43512877.066103965
+
+Geração 232
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X4 / 2.456700664841903) - (X1 / -3.0816755108189042)))
+Média de erro: inf
+
+Geração 233
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281225.02857861	(sin(ln(sin((X4 / -2.293448698967644)))) + -3.272591227779684)
+Média de erro: 43510132.6984081
+
+Geração 234
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: 46281207.473288834	-1.0781686902622134
+Média de erro: 43063262.33136698
+
+Geração 235
+Melhor Indivíduo: 41812519.691121526	((X3 * X3) / (X1 * X5))
+Pior Indivíduo: inf	exp(((X7 + X6) / sin((X4 * -2.1922675587564013))))
+Média de erro: inf
+
+Geração 236
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	exp(((X7 + X6) / sin((X4 * -2.1922675587564013))))
+Média de erro: inf
+
+Geração 237
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46353895.73019964	((X3 / -0.34062131721636746) - (3.2938358848096225 + X3))
+Média de erro: 42031546.733196296
+
+Geração 238
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281218.84539812	-2.624587631793899
+Média de erro: 41441513.36645939
+
+Geração 239
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281221.713031	-3.014538267621132
+Média de erro: 38233075.44660731
+
+Geração 240
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281223.619871415	-3.273837051781295
+Média de erro: 32885155.22492436
+
+Geração 241
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281235.0650387	-4.8301904269490805
+Média de erro: 32571296.8584591
+
+Geração 242
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281192.1907809	exp(exp((ln(3.3689265353186864) - exp((X6 - 0.2430150400558242)))))
+Média de erro: 29748383.610855173
+
+Geração 243
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281231.46917731	-4.341212786597435
+Média de erro: 31764662.627529576
+
+Geração 244
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281199.56926275	-0.0033516629393703923
+Média de erro: 33780254.1885226
+
+Geração 245
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281356.188809715	ln(((X6 / X1) * exp(-22.153006053281473)))
+Média de erro: 31761270.793446373
+
+Geração 246
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46323132.20429439	((X7 / -2.5656913984502316) - (X4 / 3.650581496679223))
+Média de erro: 33377942.80336484
+
+Geração 247
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281201.49198168	sin(sin(ln(sin((cos(cos((X7 / 0.7900101888667894))) * sin((X7 + 3.593162265135593)))))))
+Média de erro: 32570558.024465557
+
+Geração 248
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281221.17539976	-2.941429318604656
+Média de erro: 33376654.263499033
+
+Geração 249
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281241.26328241	(-5.036364703764926 / exp(sin((X8 * X3))))
+Média de erro: 37812030.09023731
+
+Geração 250
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281205.932583526	ln((sin(exp((X5 * -4.537077164227526))) + (X1 / X6)))
+Média de erro: 33777788.147888996
+
+Geração 251
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281220.51872901	-2.8521329658684094
+Média de erro: 29748364.601461206
+
+Geração 252
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46284122.16840819	((3.679995768623808 - X1) - (4.753880126676242 + X8))
+Média de erro: 33777480.22096519
+
+Geração 253
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281213.50546421	-1.8984448785669148
+Média de erro: 34183848.74278469
+
+Geração 254
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281185.00997618	1.976471113110514
+Média de erro: 34987930.58460812
+
+Geração 255
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281195.497854725	cos((sin((-2.3737626352809036 - X3)) * (X8 * X5)))
+Média de erro: 35390772.416094735
+
+Geração 256
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281216.96529549	-2.368924746787664
+Média de erro: 37805211.56896275
+
+Geração 257
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281204.91888669	-0.7308121919964776
+Média de erro: 32568716.617733926
+
+Geração 258
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281216.05646115	-2.245338300338969
+Média de erro: 31762256.776532363
+
+Geração 259
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281292.23443415	((-2.069313264195002 * X5) / sin(0.5952569773005019))
+Média de erro: 32974159.70954825
+
+Geração 260
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281204.75975791	-0.7091733232338617
+Média de erro: 30958253.940483384
+
+Geração 261
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 1.4257707873242364e+128	exp(((-1.3466236252481387 * X5) * (-3.677902774071095 * X6)))
+Média de erro: 2.851541574648473e+126
+
+Geração 262
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281213.048216514	ln(sin((sin(exp(11.99013792759035)) - ln((-0.8103790375210203 * X5)))))
+Média de erro: 29743203.816014916
+
+Geração 263
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281230.766510226	-4.2456616869914585
+Média de erro: 33375861.77755172
+
+Geração 264
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46296773.636732556	(-0.03413498050005792 + (X8 - X3))
+Média de erro: 31362052.098441076
+
+Geração 265
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281200.72708441	(cos((X6 - -2.7549409751142506)) - sin((X1 / X4)))
+Média de erro: 31361599.82474022
+
+Geração 266
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281271.11118084	((X2 * X2) / ln(sin(cos((X2 / X2)))))
+Média de erro: 34178642.80870105
+
+Geração 267
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281226.110135	-3.612471702876978
+Média de erro: 31763786.55598044
+
+Geração 268
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281235.09625973	-4.834435953080889
+Média de erro: 34586099.570453525
+
+Geração 269
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281202.76616423	ln(cos(ln(exp((cos((X3 + 2.3329849167847048)) - 4.15906031398711)))))
+Média de erro: 36996470.26211257
+
+Geração 270
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281228.33237357	-3.914659387362216
+Média de erro: 35788309.087188624
+
+Geração 271
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281222.6275691	-3.138900330801051
+Média de erro: 33372236.84629658
+
+Geração 272
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281354.87350603	(-14.69865123029744 / exp(sin((X5 * 4.039344509703852))))
+Média de erro: 32168067.061355256
+
+Geração 273
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281231.07181185	-4.287177657527701
+Média de erro: 29345442.38174135
+
+Geração 274
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281227.48578644	-3.7995375424347055
+Média de erro: 32948381.621056866
+
+Geração 275
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46323322.1276028	(cos(exp((X3 + X3))) - (X7 * X2))
+Média de erro: 34588300.22340076
+
+Geração 276
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281231.94753191	-4.406261082052473
+Média de erro: 30958371.363149967
+
+Geração 277
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281202.87954213	ln((sin(ln((X5 / X3))) - exp(ln(exp(-2.479353460921324)))))
+Média de erro: 29337700.478193663
+
+Geração 278
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46293340.48525353	(exp((3.656009674781796 + X5)) / -0.9320288115830975)
+Média de erro: 35391747.075975075
+
+Geração 279
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281350.731512316	(-19.55890734877683 - (X1 / X1))
+Média de erro: 31761382.05190543
+
+Geração 280
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281220.22966927	-2.8128256179213618
+Média de erro: 31761575.855069336
+
+Geração 281
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281235.17836286	-4.845600549562548
+Média de erro: 31753455.247063626
+
+Geração 282
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46286630.38352835	(sin(ln(cos(cos(-8.67957285456809)))) * (-0.038573561181934224 + X3))
+Média de erro: 33377772.466319513
+
+Geração 283
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46283548.312344424	(sin(9.976440088910573) * (1.5514786910374827 * X8))
+Média de erro: 32969583.514624152
+
+Geração 284
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281234.823505744	-4.79734593094186
+Média de erro: 32974475.090792056
+
+Geração 285
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281229.227274254	-4.036351067835225
+Média de erro: 33374557.96055944
+
+Geração 286
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281211.21494897	-1.5869726517550586
+Média de erro: 34525802.30487301
+
+Geração 287
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281204.11047351	-0.6208813399537387
+Média de erro: 30955732.002046347
+
+Geração 288
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46662762.806793906	(-9.045431436397262 * (X7 * X2))
+Média de erro: 29352333.916605223
+
+Geração 289
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281199.544615194	ln((cos(cos(sin(-1.0634649009243766))) * (-4.024175542054298 / X4)))
+Média de erro: 30151594.14748504
+
+Geração 290
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46296745.167470634	(ln(0.644776514155498) - (-4.275780344755267 + X7))
+Média de erro: 30956042.44394136
+
+Geração 291
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46283061.93193907	((X6 + X6) * (X1 * -4.285055115010248))
+Média de erro: 30958096.360826828
+
+Geração 292
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281239.6458178	ln(sin((sin((-2.6903736325372485 - X5)) / (X7 - -0.7357234721571082))))
+Média de erro: 34183334.29142799
+
+Geração 293
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281235.07345659	-4.831335112181189
+Média de erro: 34990326.69534466
+
+Geração 294
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281211.720071234	-1.6556609418697166
+Média de erro: 32571301.05303914
+
+Geração 295
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281227.10226485	-3.747384942010484
+Média de erro: 30958368.77701335
+
+Geração 296
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281236.034477115	-4.962018006054947
+Média de erro: 35382868.500145234
+
+Geração 297
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281232.73702643	-4.513619279351696
+Média de erro: 30956329.71870079
+
+Geração 298
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	(exp((X7 + -3.027040421151199)) * sin(ln(exp((X1 * X2)))))
+Média de erro: inf
+
+Geração 299
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	((3.551889260151846 - X4) * exp((-3.7085949223409176 + X8)))
+Média de erro: inf
+
+Geração 300
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281221.5020926	-2.9858541416711413
+Média de erro: 32568719.555694956
+
+Geração 301
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281221.5020926	-2.9858541416711413
+Média de erro: 35390603.56839364
+
+Geração 302
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281224.37612227	(ln((X6 * X6)) - ln((X6 + X7)))
+Média de erro: 33780181.004603885
+
+Geração 303
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46289886.56697657	((X7 + 4.07634627426013) / cos((4.156137631939638 + X4)))
+Média de erro: 31357892.179423593
+
+Geração 304
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281206.82413268	sin(((X2 / -2.9649612061159325) - cos((X2 / -3.621342683946225))))
+Média de erro: 32974310.791013155
+
+Geração 305
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46576305.53655754	((X2 - X4) * exp(exp(ln(sin(sin((X7 - X4)))))))
+Média de erro: 32980144.73801528
+
+Geração 306
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46576305.53655754	((X2 - X4) * exp(exp(ln(sin(sin((X7 - X4)))))))
+Média de erro: 32987449.944702994
+
+Geração 307
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281219.267995656	-2.6820539040924096
+Média de erro: 33374814.75924453
+
+Geração 308
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46296755.805053845	((X2 - X7) + sin((X3 * -0.01121649769745936)))
+Média de erro: 33779828.56481077
+
+Geração 309
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281204.663159445	cos((-1.488085775870057 / ln(sin(exp((0.15632088639959818 / X3))))))
+Média de erro: 31761944.248333093
+
+Geração 310
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46580380.547831304	(exp((X6 - X8)) * -7.633544495314892)
+Média de erro: 35368111.22071654
+
+Geração 311
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281215.35283547	-2.1496568409779373
+Média de erro: 32962815.86562901
+
+Geração 312
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46285960.14762842	(sin(sin(0.16185062783749218)) / (-4.400018734026804 / X4))
+Média de erro: 35784237.93459755
+
+Geração 313
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46855460.65502144	((X5 + 4.688032602815184) + (-4.196761410461541 * X4))
+Média de erro: 34985030.17328051
+
+Geração 314
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281529.67709963	((X6 * 4.750173654965868) / sin(-2.095494612373555))
+Média de erro: 34177726.87830456
+
+Geração 315
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	exp(((X7 + X1) / (X1 + -3.126439258705953)))
+Média de erro: inf
+
+Geração 316
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281201.69451418	((X2 * 0.2696429648973133) / cos((-4.974813115408066 * X5)))
+Média de erro: 31355649.363820825
+
+Geração 317
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 47057537.82364404	((X4 * -3.9862566303457925) / sin(exp(sin((X6 * X8)))))
+Média de erro: 31779797.716773137
+
+Geração 318
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 47057537.82364404	((X4 * -3.9862566303457925) / sin(exp(sin((X6 * X8)))))
+Média de erro: 34602054.48949517
+
+Geração 319
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281212.02621259	-1.6972910985125989
+Média de erro: 32972242.983449295
+
+Geração 320
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281226.88273969	((X7 - -0.573665769128441) - (X7 + 4.291198966252255))
+Média de erro: 32973792.58552478
+
+Geração 321
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 1464779677.5696204	exp(((2.2572708564748982 * X1) - ln((X6 / 1.3499286276826394))))
+Média de erro: 64559665.270638615
+
+Geração 322
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	exp(((1.4924915552527693 * X7) * sin((X3 - X5))))
+Média de erro: inf
+
+Geração 323
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281198.47050623	(sin(-3.450970429348912) / (X5 * 0.6306769227038691))
+Média de erro: 32565965.92904684
+
+Geração 324
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 1302728169.3123999	((-1.5652707969184543 + X4) * (X7 + -1.7938655944363422))
+Média de erro: 57294369.12684311
+
+Geração 325
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	(exp((X6 * X8)) + cos(8.682319430190345))
+Média de erro: inf
+
+Geração 326
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	(exp((X6 * X8)) + cos(8.682319430190345))
+Média de erro: inf
+
+Geração 327
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: inf	exp((exp(-1.0219168049128644) - (-4.8454848966508255 - X4)))
+Média de erro: inf
+
+Geração 328
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 1303363891.1991494	((X1 / X1) * (X7 * X4))
+Média de erro: 137169497.5656741
+
+Geração 329
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281272.88049833	((X5 * -2.9198700911202238) - ln((-1.0059816775475214 - X3)))
+Média de erro: 32570991.625290524
+
+Geração 330
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281229.53547097	-4.078260730341623
+Média de erro: 32167696.2575
+
+Geração 331
+Melhor Indivíduo: 26119583.9918956	exp((exp(exp(exp(sin(ln(-18.271256171157443))))) - exp(exp(8.14588576698631))))
+Pior Indivíduo: 46281229.53547097	-4.078260730341623
+Média de erro: 31361290.911688104

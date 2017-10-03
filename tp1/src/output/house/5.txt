@@ -1,0 +1,690 @@
+output/house/5.txt
+datasets/house-train.csv	datasets/house-test.csv
+
+Params:
+MAX_GEN = 100
+TAMANHO_POPULACAO = 50
+PROB_CROSSOVER = 0.67
+PROB_MUTATION = 0.78
+TAMANHO_TORNEIO = 5
+TAMANHO_ELITISMO = 2
+
+
+Geração 1
+Melhor Indivíduo: 30047385.207318414	((X7 * X7) + sin((X7 * -1.985538742524544)))
+Pior Indivíduo: inf	exp(((X4 + X6) + (-1.9674294646376866 + X6)))
+Média de erro: inf
+
+Geração 2
+Melhor Indivíduo: 30047385.207318414	((X7 * X7) + sin((X7 * -1.985538742524544)))
+Pior Indivíduo: 46339086.37067308	(ln((X2 / X3)) * (X8 * X2))
+Média de erro: 45943261.86761696
+
+Geração 3
+Melhor Indivíduo: 30047385.207318414	((X7 * X7) + sin((X7 * -1.985538742524544)))
+Pior Indivíduo: 46309707.108727105	(-0.6977230776334656 / (3.2020432621466046 / X4))
+Média de erro: 45948516.94611549
+
+Geração 4
+Melhor Indivíduo: 30047385.207318414	((X7 * X7) + sin((X7 * -1.985538742524544)))
+Pior Indivíduo: inf	exp((exp((X2 - -4.930618703205703)) + ln(cos(cos((X6 * -3.654804397420921))))))
+Média de erro: inf
+
+Geração 5
+Melhor Indivíduo: 30047385.207318414	((X7 * X7) + sin((X7 * -1.985538742524544)))
+Pior Indivíduo: 46281229.13998265	-4.024480855911275
+Média de erro: 45943922.80890165
+
+Geração 6
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 1411365758.019054	((X4 * X3) - (X5 / X1))
+Média de erro: 72522947.57503916
+
+Geração 7
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46409483.737270996	((X4 + X5) / sin((X3 + 1.0396176494419098)))
+Média de erro: 45555668.875826575
+
+Geração 8
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 8933193425915.172	(ln(ln(ln((X6 / 4.62766826314447)))) * exp((X6 * 2.316783673519531)))
+Média de erro: 357371434348.03534
+
+Geração 9
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281256.838109106	(cos((-2.618181792833255 - X6)) + (X1 * -2.1297083847119227))
+Média de erro: 45548073.071115725
+
+Geração 10
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(ln((exp((X2 + X3)) - (X3 + -2.915263645226198))))
+Média de erro: inf
+
+Geração 11
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((X8 + -3.8648509462775427)) - 7.146470728591433)
+Média de erro: inf
+
+Geração 12
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 1328835713.7520037	(-1.3040198085852557 - (X4 * X7))
+Média de erro: 70951830.78098474
+
+Geração 13
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 1903337162.8154447	((X4 * X7) / (X5 / X2))
+Média de erro: 82629715.01777166
+
+Geração 14
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(exp(exp(((1.108949413237072 * X2) + (X8 - X1)))))
+Média de erro: inf
+
+Geração 15
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281339.80231404	(-16.268306169016988 - exp(1.031194146726755))
+Média de erro: 45470278.529768884
+
+Geração 16
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((-0.8338371815875965 + X8) + (-3.52567686668664 + X3)))
+Média de erro: inf
+
+Geração 17
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((X8 + X3) + exp(sin(cos(ln((X1 / X7)))))))
+Média de erro: inf
+
+Geração 18
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281229.535932854	-4.078323516699531
+Média de erro: 45465353.526375294
+
+Geração 19
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	((X1 - X5) - exp((X3 - 0.5421580050612711)))
+Média de erro: inf
+
+Geração 20
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((X4 + X5)) / (X5 / -1.2282404481477172))
+Média de erro: inf
+
+Geração 21
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp((exp((X6 + X1)) + (X2 / X4)))
+Média de erro: inf
+
+Geração 22
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46292628.777647704	(ln(cos((X7 * X4))) - (X8 * X1))
+Média de erro: 45472428.98737675
+
+Geração 23
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((X5 + X4) - -0.3052493249894508))
+Média de erro: inf
+
+Geração 24
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46282130.5125773	((X8 + -0.25161353704820844) - (1.321665643202934 * X8))
+Média de erro: 45473282.4128542
+
+Geração 25
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((X5 + X4)) - cos(ln((X8 + X3))))
+Média de erro: inf
+
+Geração 26
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46541183.26522287	((X4 * -1.9479327266980286) - cos((-2.108972790425727 / X1)))
+Média de erro: 45471101.26123094
+
+Geração 27
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281230.61754822	-4.22540532256416
+Média de erro: 44569081.7226946
+
+Geração 28
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46413224.125898294	(cos((X8 + -3.4526406828972878)) + (0.32106970535195245 - X4))
+Média de erro: 45325377.7461903
+
+Geração 29
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281265.20104269	((X1 * -0.3248303896213347) * (X6 + -0.5803505840443837))
+Média de erro: 44950606.95698499
+
+Geração 30
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	((X8 * 3.8871653440915725) + exp((X8 - -0.3432682939167888)))
+Média de erro: inf
+
+Geração 31
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	((X8 * 3.8871653440915725) + exp((X8 - -0.3432682939167888)))
+Média de erro: inf
+
+Geração 32
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46318041.68961369	(ln(sin(-6.271895687705486)) * (X2 * X8))
+Média de erro: 44672986.25774955
+
+Geração 33
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46293420.49119881	((X4 + X5) / -10.6917894397017)
+Média de erro: 44662933.64536021
+
+Geração 34
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281221.77320669	-3.0227211892851247
+Média de erro: 45077005.17741738
+
+Geração 35
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281234.63179883	-4.771276961308029
+Média de erro: 45474571.99068836
+
+Geração 36
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46286549.85139833	((X3 / -3.455353567983628) - ln(exp(cos((X6 - X6)))))
+Média de erro: 45073472.314717904
+
+Geração 37
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46284083.44978662	((-0.3200786130310007 - X8) + cos(sin(exp((-2.91273353682425 + X8)))))
+Média de erro: 44260428.53651801
+
+Geração 38
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46287126.75521374	((X3 / X5) * (X2 - X1))
+Média de erro: 45461927.96338131
+
+Geração 39
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281254.90058473	-7.52749607318536
+Média de erro: 45469938.74084244
+
+Geração 40
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281271.53616739	((-2.6697041105552453 - X6) + 1.0593994601423518)
+Média de erro: 45476484.51308277
+
+Geração 41
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((X8 * X2)) * exp(cos(exp(ln(sin(ln(cos((X6 * X3)))))))))
+Média de erro: inf
+
+Geração 42
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281235.92534461	-4.947177771265768
+Média de erro: 45077946.36534949
+
+Geração 43
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281229.069183245	(-4.004663820145778 + sin(cos((4.13820583176536 - X7))))
+Média de erro: 45464571.4971117
+
+Geração 44
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46283658.76918108	((X2 / 1.4802565229659113) * -207.60776959071248)
+Média de erro: 45461845.210304156
+
+Geração 45
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281234.37741482	-4.736684948014212
+Média de erro: 45463808.7757063
+
+Geração 46
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46413231.66634094	((X1 - X6) + (X5 - X4))
+Média de erro: 45473508.58055889
+
+Geração 47
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 706511414.3099642	((X5 * X3) * (-3.6098127527239376 * X7))
+Média de erro: 58669716.69391999
+
+Geração 48
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281228.29778383	-3.909955747568464
+Média de erro: 45464430.974498786
+
+Geração 49
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281231.7371463	(exp(exp(sin(cos(1.3509526013471693)))) / sin(-7.194961612232693))
+Média de erro: 45465833.054243974
+
+Geração 50
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46296747.21761273	((X1 - X7) + exp((X3 * X3)))
+Média de erro: 45467175.965627305
+
+Geração 51
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(sin(cos((X5 - 2.999170688003213))) * exp((X7 - -2.831328379010749)))
+Média de erro: inf
+
+Geração 52
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281235.62980967	-4.9069899427016885
+Média de erro: 45465862.95945893
+
+Geração 53
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 9.940140479193064e+20	exp((exp(ln((X2 * X2))) - (X6 * 1.1316533924142718)))
+Média de erro: 1.9880280958430683e+19
+
+Geração 54
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46319724.84795977	(exp(cos((X3 - X1))) + (X4 / -3.3981382341476185))
+Média de erro: 45477780.9553627
+
+Geração 55
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46413196.61320655	(ln(cos(exp(-5.266548371560788))) - (X4 - X1))
+Média de erro: 45475469.08270834
+
+Geração 56
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281231.262460425	-4.313102713202744
+Média de erro: 45476700.07133887
+
+Geração 57
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281224.138922796	-3.3444194541058234
+Média de erro: 45069961.602974676
+
+Geração 58
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((1.6280179844571077 * X3)) * (0.5833494204544296 + X1))
+Média de erro: inf
+
+Geração 59
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46373097.65510856	((X3 * -4.97688147321816) - ln(-6.584804255908015))
+Média de erro: 45073625.76284814
+
+Geração 60
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	((X5 + 3.82442145208225) / exp((X5 - X4)))
+Média de erro: inf
+
+Geração 61
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((-4.038726029888274 + X7) + (X8 / -4.638470690288109)))
+Média de erro: inf
+
+Geração 62
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((-4.038726029888274 + X7) + (X8 / -4.638470690288109)))
+Média de erro: inf
+
+Geração 63
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46296794.102560006	((-2.8169435201323956 - X7) - sin(ln((X2 * -3.281193070344457))))
+Média de erro: 45317401.80387592
+
+Geração 64
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((X2 * X6) + (X8 + X5)))
+Média de erro: inf
+
+Geração 65
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((X8 - 2.503581583366432)) + (X6 - -4.724460590767855))
+Média de erro: inf
+
+Geração 66
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281285.91862497	((X2 + X2) / cos((4.750194868699307 * X3)))
+Média de erro: 45074003.96622317
+
+Geração 67
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281262.949598536	(-8.622028441956537 + ln(cos(3.3696378456008245)))
+Média de erro: 45074905.21886799
+
+Geração 68
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46282179.74662269	((0.13761795955976286 * X8) * -2.46589196376602)
+Média de erro: 45443233.596558854
+
+Geração 69
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 51281259.5932095	((X8 / -1.366985199620272) * (-3.179316361902843 + X7))
+Média de erro: 45572434.59230307
+
+Geração 70
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((0.47339483092383716 + X4) + sin(ln(6.047867709399241))))
+Média de erro: inf
+
+Geração 71
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46330415.44553319	((X3 * -2.6658641129382508) + cos(sin(ln(8.981975658352257))))
+Média de erro: 45172819.204250425
+
+Geração 72
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281285.15976361	(-6.811813380504468 / (-3.895527763376264 + X5))
+Média de erro: 45168540.09083761
+
+Geração 73
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 50045574.78391643	(-4.464053151860345 - (X8 * X8))
+Média de erro: 45546776.55490235
+
+Geração 74
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 3.9649140611328736e+46	exp((sin((0.560883475947267 * X6)) / cos(ln((X4 + -0.896751663777728)))))
+Média de erro: 7.929828122265747e+44
+
+Geração 75
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281484.48240686	((X5 * -1.4105728699950912) / sin((X4 + X7)))
+Média de erro: 45475442.25400308
+
+Geração 76
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46521689.601972565	((X4 * -1.8003176403180712) / sin(1.4999169884578558))
+Média de erro: 45371934.396727145
+
+Geração 77
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281514.722867176	(4.6615591910165115 - exp(3.8611619071041767))
+Média de erro: 45071650.57525008
+
+Geração 78
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46299573.84566657	((X2 - -4.8948608642253255) - (X3 + -4.683243183742926))
+Média de erro: 45470638.76992014
+
+Geração 79
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46315972.3420512	(sin((-3.3882097069569186 + X6)) * (X4 - 4.319010643164447))
+Média de erro: 45476550.73803848
+
+Geração 80
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((-2.666962053555654 + X4)) * -0.15243437102549873)
+Média de erro: inf
+
+Geração 81
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((X8 * 3.330871675963607) - (X8 / X6)))
+Média de erro: inf
+
+Geração 82
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((X1 * X7) / exp((X7 * -0.3314069167876168))))
+Média de erro: inf
+
+Geração 83
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281235.98672924	-4.955525067888136
+Média de erro: 45449048.19186834
+
+Geração 84
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	exp(((X8 + X3) - (-4.349317645960305 * X5)))
+Média de erro: inf
+
+Geração 85
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281228.49230334	-3.936407184710732
+Média de erro: 45459124.801207505
+
+Geração 86
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281231.21953991	-4.307266224705357
+Média de erro: 45465058.37767282
+
+Geração 87
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46285434.71111245	(sin(ln((4.030005826587329 / X2))) * (X3 / -1.781741505433494))
+Média de erro: 45471578.399824336
+
+Geração 88
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46359875.346988164	((-4.294599751768454 * X4) * exp(-1.9703538021568754))
+Média de erro: 45083188.40363519
+
+Geração 89
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46324243.112006776	((3.7951237725329463 - X8) - (X4 / X5))
+Média de erro: 44674915.773297794
+
+Geração 90
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281226.20734926	-3.6256912356181017
+Média de erro: 45475375.742613174
+
+Geração 91
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281234.71885839	-4.783115632067068
+Média de erro: 45473271.8728171
+
+Geração 92
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46413207.35536804	(sin(ln((X3 * X1))) - (X4 + -1.7469885253986375))
+Média de erro: 45471292.926289365
+
+Geração 93
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46650425.310725644	((X4 * -2.741834296772172) + sin((X1 / -0.3864234222522098)))
+Média de erro: 45483903.86847151
+
+Geração 94
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((4.751370487716704 + X3)) + (1.2019425859076813 * X8))
+Média de erro: inf
+
+Geração 95
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 890132895961110.2	((X7 * X4) * (X4 + 1.917937004839482))
+Média de erro: 17802702473076.54
+
+Geração 96
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 890132895961110.2	((X7 * X4) * (X4 + 1.917937004839482))
+Média de erro: 17802702469582.54
+
+Geração 97
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46413306.37064819	((3.4583680404159587 - X4) - 14.81619939115117)
+Média de erro: 45064605.4214016
+
+Geração 98
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: inf	(exp((X8 + 2.829032617371084)) * (4.8222717741811465 * X2))
+Média de erro: inf
+
+Geração 99
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 1411364911.4808998	((X4 * X3) - (X8 + X5))
+Média de erro: 72381510.24347228
+
+Geração 100
+Melhor Indivíduo: 26292337.116765868	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo: 46281235.09775511	-4.834639309340791
+Média de erro: 45469528.41151683
+
+-----------------------------------------
+Geração final: 
+Melhor Indivíduo (Train): 	26292337.116765868
+	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+Pior Indivíduo (Train): 	46281235.09775511
+	-4.834639309340791
+
+-----------------------------------------
+Indivíduos:
+******
+	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+	45648055.37272244
+******
+	exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+	45648055.37272244
+******
+	X4
+	79500185.8513378
+******
+	X4
+	79500185.8513378
+******
+	X4
+	79500185.8513378
+******
+	X4
+	79500185.8513378
+******
+	X3
+	79682376.31006292
+******
+	X3
+	79682376.31006292
+******
+	X3
+	79682376.31006292
+******
+	X3
+	79682376.31006292
+******
+	X7
+	79687289.13719645
+******
+	X6
+	79714124.76244459
+******
+	X6
+	79714124.76244459
+******
+	X6
+	79714124.76244459
+******
+	4.715466315174854
+	79714168.66929139
+******
+	((X2 / 0.41474114798699446) - exp(sin((X4 + X6))))
+	79714171.43594263
+******
+	((X2 / 0.41474114798699446) - exp(sin((X4 + X6))))
+	79714171.43594263
+******
+	4.374029153718839
+	79714172.99206585
+******
+	4.313623270496546
+	79714173.75683625
+******
+	3.8245905193586776
+	79714179.94824728
+******
+	3.8245905193586776
+	79714179.94824728
+******
+	3.8245905193586776
+	79714179.94824728
+******
+	X5
+	79714184.92867588
+******
+	2.5255988801981584
+	79714196.39416067
+******
+	2.5255988801981584
+	79714196.39416067
+******
+	X2
+	79714198.1121063
+******
+	X2
+	79714198.1121063
+******
+	X2
+	79714198.1121063
+******
+	2.3780666485833946
+	79714198.26200023
+******
+	exp(sin(exp(exp((ln(ln(1.067592919631827)) / (3.025396440380133 / X4))))))
+	79714198.99997936
+******
+	1.8316001946511298
+	79714205.18055435
+******
+	exp(cos(((X8 + -0.4145039349787538) + exp((X1 - 3.504461358652213)))))
+	79714207.20638734
+******
+	exp(cos(((X8 + -0.4145039349787538) + exp((X1 - 3.504461358652213)))))
+	79714207.20638734
+******
+	exp(sin((sin((X6 / 3.1864236568149646)) - sin(exp(ln((3.6790795984979745 + X4)))))))
+	79714207.91709895
+******
+	ln((exp(-2.0609979918544106) + (X2 + 2.049964955770408)))
+	79714209.37167883
+******
+	exp(sin((cos(sin(exp(cos((X7 + -2.087324496891396))))) * (X4 + 2.7507877024291725))))
+	79714212.29486589
+******
+	exp(cos(exp((sin(-3.411564065278248) + (X8 + 2.8456711112987136)))))
+	79714213.59495212
+******
+	exp(sin(ln(exp(ln(((-3.7779030064964534 / X7) - (X7 / X3)))))))
+	79714215.70904842
+******
+	exp(ln(ln(cos(exp(cos((sin(ln((X4 - X3))) - (3.655377211530709 - X8))))))))
+	79714215.70904842
+******
+	0.9684030334678919
+	79714216.1090834
+******
+	(exp(sin((4.488645492739749 / X5))) / (X8 + X8))
+	79714221.43364194
+******
+	ln((-5.164088439281038 * (3.9854677777373553 * X8)))
+	79714228.36957675
+******
+	-0.013071076483202049
+	79714228.53506346
+******
+	(sin(exp((X5 / X6))) * (X1 * -0.034296069945281005))
+	79714229.88972886
+******
+	-0.5716508917783258
+	79714235.60697916
+******
+	(0.1328744455688148 * (X1 - X6))
+	79714236.13539892
+******
+	-2.1912519526838725
+	79714256.11198622
+******
+	-2.785034574180637
+	79714263.62958929
+******
+	-2.9730223252214194
+	79714266.0096141
+******
+	-4.834639309340791
+	79714289.57867533
+
+-----------------------------------------
+Test:
+5 melhores indivíduos:
+exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+	45648055.37272244
+exp(exp(exp((cos(exp((1.6019580271219471 - X3))) - exp(ln((X1 / X4)))))))
+	45648055.37272244
+X4
+	79500185.8513378
+X4
+	79500185.8513378
+X4
+	79500185.8513378
+Media: 	45469528.41151683
+Desvio padrão: 	3914682.2815242205
+
+ Quantidade de indivíduos repetidos!
+2	4	4	3	2	3	2	3	2	2	

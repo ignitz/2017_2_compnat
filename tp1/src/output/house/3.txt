@@ -1,0 +1,66 @@
+output/house/3.txt
+datasets/house-train.csv	datasets/house-test.csv
+
+Params:
+MAX_GEN = 50
+TAMANHO_POPULACAO = 50
+PROB_CROSSOVER = 0.67
+PROB_MUTATION = 0.78
+TAMANHO_TORNEIO = 5
+TAMANHO_ELITISMO = 2
+
+
+Geração 1
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: inf	((X5 * X4) + exp((X4 / X1)))
+Média de erro: inf
+
+Geração 2
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: 7.911404988892824e+123	(exp(exp((X1 + 4.662886773366386))) / 12.24545296804739)
+Média de erro: 1.5822809977785648e+122
+
+Geração 3
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: inf	((X4 / -0.23927329675065057) + exp((X2 + X3)))
+Média de erro: inf
+
+Geração 4
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: 46296741.90563031	((2.0472270919772404 - X7) - -2.233225496286249)
+Média de erro: 45608281.73374462
+
+Geração 5
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: inf	exp(((X8 + X1) - ln(cos((X7 - -2.489243065531548)))))
+Média de erro: inf
+
+Geração 6
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: inf	(exp(exp((X1 + X6))) * cos((-2.785040914614977 - X5)))
+Média de erro: inf
+
+Geração 7
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: inf	(exp((X4 - X2)) + (X5 + -2.2674325781018068))
+Média de erro: inf
+
+Geração 8
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: 225220120.63733009	((X4 * X8) + (X5 * -3.661384742495949))
+Média de erro: 52761706.91166735
+
+Geração 9
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: 46299673.565558	(exp((-0.5074731754554058 / X2)) - (X2 + X3))
+Média de erro: 45607256.431156486
+
+Geração 10
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: 46296791.055042565	((-2.432207472288529 - X7) + ln(ln(exp((X1 + X3)))))
+Média de erro: 45616154.65682691
+
+Geração 11
+Melhor Indivíduo: 29714398.37000616	((X7 * X7) * sin(1.3946628185726908))
+Pior Indivíduo: 46281224.75702539	-3.4284711788324564
+Média de erro: 45610164.36393897
