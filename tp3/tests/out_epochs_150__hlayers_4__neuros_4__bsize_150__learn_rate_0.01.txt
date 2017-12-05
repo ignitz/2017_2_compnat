@@ -1,0 +1,8 @@
+Epochs: 150
+Hidden Layers: 4
+Number of neuros: 4
+Batch Size: 150
+Learn Rate: 0.01
+
+Accuracy: 0.41%
+Erro de: 58.70%
